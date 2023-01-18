@@ -3,27 +3,101 @@
    <head>
     <meta charset="UTF-8">
     <title>Meu Portfólio Web</title>
-    <style></style>
+    <style>
+      h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+        font-weight: 500;
+        color: #758E4F;
+        text-align: center;
+      }
+      h6 {
+        color: #758E4F;
+        text-align: center;
+      }
+
+      img {
+        height: 190px;
+        width: 190px;
+        image-rendering: auto;
+        border-radius: 50%;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body {
+        background-color: #1e3231;
+      }
+
+      p {
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      a {
+        color: #80A4ED;
+        text-decoration: none;
+        margin: 12px;
+        text-align: center;
+        display: block;
+        
+
+      }
+
+      li { 
+        color: #339989;
+      }
+      ul {
+        color: #758E4F;
+      }
+
+      #Letterbox {
+        text-decoration: none;
+        text-align: left;
+        font-weight: bold;
+        background-color: #7f6a93;
+        color:black;
+        padding: 8px 16px;
+        border-radius: 3px;
+        margin-left: 28px;
+        margin-bottom: 28px;
+        margin-right: 880px;
+      }
+
+      #lastli {
+        margin-bottom: 42px;
+      }
+
+      #tradução {
+        font-size: 80%;
+      }
+
+
+
+    </style>
 
    </head>
 
    <body>
       <h2>Danillo Expedito Oliveira Santos</h2>
-      <a href="#Aboutme">About me</a> <a href="#Letterbox">My Letterbox</a>
       <img src="Danillo-expedito.jpeg" alt="Foto de Danillo" width="200x">
+      <a href="#Aboutme">About me</a> <a href="#Letterbox">My Letterbox</a> <a href="#softskills">Soft Skills</a> <a href="#hardskills">Hard Skills</a>
       <h6>Itu, São Paulo, Brazil!</h6>
 
       <p id="Aboutme">Hello, I am Danillo, a very simple guy that lives in a small city in the interior of São Paulo.<br>
     My dream is becoming a Software developer/Web developer, and in the future work with Security of data as well.<br>
-    One of my favorite hobbies is <strong>Cinema</strong>, I love to watch movies and talk about them with other people that have the same enthusiasm as I do.
-    I gonna leave my <em>Letterbox</em> profile link bellow so you can know what films I really enjoy and we can came more closer to each other!
+    One of my favorite hobbies is <strong>Cinema</strong>, I love to watch movies and talk about them with other people that have the same enthusiasm as I do.<br>
+    I gonna leave my <em>Letterbox</em> profile link bellow so you can know what films I really enjoy and we can came more closer to each other!<br>
     Something I also wanna display here is that i love fixing things, I have already work on fixing things like televisors, laptops, sewing machines, etc.
     </p>
 
-    <p>Olá, eu sou o Danillo, um cara muito simples que mora em uma pequena cidade do interior de São Paulo.<br>
+    <p id="tradução">Olá, eu sou o Danillo, um cara muito simples que mora em uma pequena cidade do interior de São Paulo.<br>
       Meu sonho é me tornar um desenvolvedor de Software/Desenvolvedor Web, e futuramente trabalhar com Segurança de dados também.<br>
-      Um dos meus passatempos preferidos é o <strong>Cinema</strong>, adoro ver filmes e falar sobre eles com outras pessoas que tenham o mesmo entusiasmo que eu.
-      Vou deixar abaixo o link do meu perfil do <em>Letterbox</em> para vocês saberem quais filmes eu realmente gosto e ficarmos mais próximos! 
+      Um dos meus passatempos preferidos é o <strong>Cinema</strong>, adoro ver filmes e falar sobre eles com outras pessoas que tenham o mesmo entusiasmo que eu.<br>
+      Vou deixar abaixo o link do meu perfil do <em>Letterbox</em> para vocês saberem quais filmes eu realmente gosto e ficarmos mais próximos!<br>
       Algo que também quero mostrar aqui é que adoro consertar coisas, já trabalhei consertando coisas como televisores, laptops, máquinas de costura, etc.</p>
 
     <ul id="softskills"><h4>Soft skills</h4>
@@ -40,7 +114,7 @@
       <li>Bash</li>
       <li>Git & Github</li>
       <li>Html(working on it)</li>
-      <li>CSS(working on it)</li>
+      <li id="lastli">CSS(working on it)</li>
     </ul>
 
     <a href="https://letterboxd.com/sabbathchild/films/" target="_blank" id="Letterbox">Letterbox Profile</a>
