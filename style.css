@@ -1,0 +1,86 @@
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #758E4F;
+    text-align: center;
+    
+  }
+  div#name-resume {
+    display: inline-block;
+  }
+  h6 {
+    color: #758E4F;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: -15px;
+    margin-bottom: 120px;
+    
+  }
+
+  img {
+    height: 220px;
+    width: 200px;
+    image-rendering: auto;
+    border-radius: 50%;
+    top: 20px;
+    padding: 16px;
+    background-color: #758E4F;
+
+  }
+
+  body {
+    background-image: ;
+  }
+  a {
+    color: black;
+    padding: 6px;
+    background-color: yellow;
+    border-radius: 4px;
+    margin: 6px;
+    text-decoration: none;
+    font-weight: 650;
+  }
+  a[href*=About] {
+    margin-left: 340px
+  }
+
+  p {
+    color: yellow;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    float:right;
+    max-width: 50%;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-right: 265px;
+
+  }
+  li { 
+    color: #339989;
+  }
+  ul {
+    color: #758E4F;
+    margin-left: 40px;
+  }
+
+  #Letterbox {
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+    background-color: #7f6a93;
+    color:black;
+    padding: 8px 16px;
+    border-radius: 3px;
+    margin-left: 60px;
+    margin-bottom: 28px;
+
+  }
+
+  #lastli {
+    margin-bottom: 42px;
+  }
+
+  #tradução {
+    font-size: 80%;
+  }
