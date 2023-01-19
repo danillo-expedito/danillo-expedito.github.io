@@ -1,18 +1,18 @@
 h2 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
-    font-weight: 500;
-    color: #758E4F;
-    text-align: center;
-    
+    font-size: 30px;
+    font-weight: 600;
+    color: #0f1020;
+    text-align: center;  
+    font-style: italic;
   }
   div#name-resume {
     display: inline-block;
   }
   h6 {
-    color: #758E4F;
+    color: #465c69;
     text-align: left;
-    margin-left: 70px;
+    margin-left: 60px;
     margin-top: -15px;
     margin-bottom: 120px;
     
@@ -23,64 +23,68 @@ h2 {
     width: 200px;
     image-rendering: auto;
     border-radius: 50%;
-    top: 20px;
-    padding: 16px;
-    background-color: #758E4F;
-
+    margin-top: 30px;
+    padding: 8px;
+    background-color: #98211f;
   }
-
   body {
-    background-image: ;
+    background-color: #d73533;
+    background-image: url(ticket.jpg);
   }
   a {
-    color: black;
+    color:white;
     padding: 6px;
-    background-color: yellow;
+    background-color: #98211f;
     border-radius: 4px;
     margin: 6px;
     text-decoration: none;
     font-weight: 650;
   }
+
   a[href*=About] {
-    margin-left: 340px
+    margin-left: 330px
   }
 
   p {
-    color: yellow;
+    color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     float:right;
     max-width: 50%;
     line-height: 20px;
     margin-top: 40px;
-    margin-right: 265px;
+    margin-right: 250px;
+    border: 4px solid #98211f;
+    padding: 12px;
+    font-weight: 650;
 
-  }
-  li { 
-    color: #339989;
   }
   ul {
-    color: #758E4F;
+    color: #d73533;
     margin-left: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
   }
-
+  li { 
+    color: #f5cdcc;
+    font-size: 16px;
+    text-transform: lowercase;
+  }
   #Letterbox {
     text-decoration: none;
     text-align: left;
     font-weight: bold;
-    background-color: #7f6a93;
-    color:black;
+    background-color: #330b0a;
+    color: #da4644;
     padding: 8px 16px;
     border-radius: 3px;
     margin-left: 60px;
     margin-bottom: 28px;
 
   }
-
   #lastli {
     margin-bottom: 42px;
   }
-
   #tradução {
     font-size: 80%;
   }
