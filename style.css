@@ -1,0 +1,90 @@
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0f1020;
+    text-align: center;  
+    font-style: italic;
+  }
+  div#name-resume {
+    display: inline-block;
+  }
+  h6 {
+    color: #465c69;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: -15px;
+    margin-bottom: 120px;
+    
+  }
+
+  img {
+    height: 220px;
+    width: 200px;
+    image-rendering: auto;
+    border-radius: 50%;
+    margin-top: 30px;
+    padding: 8px;
+    background-color: #98211f;
+  }
+  body {
+    background-color: #d73533;
+    background-image: url(ticket.jpg);
+  }
+  a {
+    color:white;
+    padding: 6px;
+    background-color: #98211f;
+    border-radius: 4px;
+    margin: 6px;
+    text-decoration: none;
+    font-weight: 650;
+  }
+
+  a[href*=About] {
+    margin-left: 330px
+  }
+
+  p {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    float:right;
+    max-width: 50%;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-right: 250px;
+    border: 4px solid #98211f;
+    padding: 12px;
+    font-weight: 650;
+
+  }
+  ul {
+    color: #d73533;
+    margin-left: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  li { 
+    color: #f5cdcc;
+    font-size: 16px;
+    text-transform: lowercase;
+  }
+  #Letterbox {
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+    background-color: #330b0a;
+    color: #da4644;
+    padding: 8px 16px;
+    border-radius: 3px;
+    margin-left: 60px;
+    margin-bottom: 28px;
+
+  }
+  #lastli {
+    margin-bottom: 42px;
+  }
+  #tradução {
+    font-size: 80%;
+  }
