@@ -7,9 +7,9 @@ function Header () {
 
     return (
           <nav 
-            className="bg-primary-300 w-screen h-16 
+            className="bg-primary-300 w-screen h-14
             flex items-center justify-start 
-            shadow-sm shadow-primary-300"
+            shadow-sm shadow-primary-300 absolute top-0"
           >
             <div className="flex flex-row items-center justify-start gap-4 ml-24">
                 <Link to="/">
@@ -18,7 +18,9 @@ function Header () {
                 <Link to="/projects">
                     <p className={navBarItemsClasses}>Projects</p>
                 </Link>
-                <p className={navBarItemsClasses}>Contact Me</p>
+                <Link to="/contact">
+                  <p className={navBarItemsClasses}>Contact Me</p>
+                </Link>
                 <a href="https://github.com/danillo-expedito/danillo-expedito.github.io" target="_blank" rel="noreferrer">
                   <p className={navBarItemsClasses}>View Source Code</p>  
                 </a>
