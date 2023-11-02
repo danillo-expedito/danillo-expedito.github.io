@@ -40,6 +40,9 @@ export default {
         112: "600px",
         90: "86vw",
       },
+      left: {
+        1: "1.5rem",
+      },
     },
     screens: {
       xs: "480px",

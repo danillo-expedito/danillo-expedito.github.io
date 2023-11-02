@@ -7,7 +7,7 @@ function Header () {
 
     return (
           <nav 
-            className="bg-primary-300 w-screen h-16 
+            className="bg-primary-300 w-screen h-14
             flex items-center justify-start 
             shadow-sm shadow-primary-300"
           >
