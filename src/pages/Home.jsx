@@ -19,12 +19,12 @@ function Home() {
     }
 
     return (
-        <div className="bg-primary-100 w-screen h-screen">
+        <div className="bg-primary-100 w-screen overflow-hidden">
             <Header />
-            <div className="home w-3/4 ml-20 mt-12 h-64 rounded-md shadow-md shadow-primary-500">
+            <div className="home w-3/4 ml-20 h-64 bg-primary-100 rounded-md shadow-md shadow-primary-500">
                 <section 
                     className="bg-gradient-to-b from-primary-300 to-primary-500 to-36%
-                                flex flex-row h-full gap-4 rounded-md items-center"
+                                flex flex-row h-full gap-4 rounded-md items-center mt-24"
                 >
                     <img 
                         src={ profile }

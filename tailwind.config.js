@@ -12,6 +12,7 @@ export default {
         "primary-100": "#373F51",
         "primary-300": "#292F3D",
         "primary-500": "#181C25",
+        "primary-700": "#0F1115",
         "secondary-400": "#D8DBE2",
         "secondary-500": "#C4C9D4",
         "highlight-100": "#2892D7",
@@ -33,12 +34,14 @@ export default {
         circles: "url('./assets/Circles.png')",
       },
       height: {
-        200: "1000px",
+        200: "950px",
         110: "440px",
+        120: "480px",
       },
       width: {
-        112: "600px",
+        112: "32rem",
         90: "86vw",
+        100: "460px",
       },
       left: {
         1: "1.5rem",
