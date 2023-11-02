@@ -6,11 +6,15 @@ import {
   RouterProvider,
 } from "react-router-dom"
 import './index.css'
+import Projects from './pages/Projects'
 // import Projects from './pages/Projects'
 
 const router = createBrowserRouter([
   { path: "/",
     element: <App />
+  },
+  { path: "/projects",
+    element: <Projects />
   },
 ]);
 
