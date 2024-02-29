@@ -114,7 +114,7 @@ function Contact() {
                 </button>
             </form>
         </div>
-        <img src={ hello } alt="" className="absolute bottom-8 right-20 w-100" />
+        <img src={ hello } alt="" className="absolute bottom-8 right-20 w-100 hover:animate-pulse" />
     </div>
   );
 }

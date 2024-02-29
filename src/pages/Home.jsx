@@ -41,7 +41,7 @@ function Home() {
                                 className="bg-highlight-300 text-secondary-400 text-md font-bold
                                 w-20 h-6 rounded shadow-md shadow-primary-500
                                 hover:bg-highlight-100 hover:text-secondary-500
-                                active:shadow-none" 
+                                active:shadow-none animate-pulse" 
                             >
                                 { language === "en-us" ? "Traduzir" : "Translate" }
                             </button>
@@ -50,14 +50,14 @@ function Home() {
                         <div>
                             { 
                             (language === "en-us") 
-                            ? (<p>
+                            ? (<p className="text-md font-serif">
                                    { `My name is Danillo Expedito, I'm 23 years old and currently living in Itu, São Paulo.
                                     I'm a FullStack developer, studying Web Development at Trybe.
                                     Technology has always been a passion, and in programming I found a way to unite this passion with my desire to create new things.
                                     My professional career in other fields is brief, I had experiences as a storekeeper and also as a public employee.
                                     I decided to leave the public office to dedicate myself to programming, and today I am looking for an opportunity to enter the job market and contribute to the growth and culture of the company, as well as to develop professionally.`}
                             </p>)
-                            : (<p className="text-md">
+                            : (<p className="text-md font-serif">
                                 Me chamo Danillo Expedito, tenho 23 anos e atualmente estou morando em Itu, interior de São Paulo.
                                 Sou um desenvolvedor FullStack, cursando Desenvolvimento Web na Trybe.
                                 Tecnologia sempre foi uma paixão, e na programação encontrei uma forma de unir essa paixão com a minha vontade de criar coisas novas.

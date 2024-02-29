@@ -41,7 +41,7 @@ export default {
       width: {
         112: "32rem",
         90: "86vw",
-        100: "460px",
+        100: "420px",
       },
       left: {
         1: "1.5rem",

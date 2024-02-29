@@ -1,6 +1,7 @@
 import logo from '../../assets/logo.svg'
 import { Link } from 'react-router-dom'
 // import { Link } from 'react-router-dom'
+import './styles.css'
 
 function Header () {
     const navBarItemsClasses = "font-bold text-sm uppercase hover:cursor-pointer hover:text-white"
@@ -13,7 +14,7 @@ function Header () {
           >
             <div className="flex flex-row items-center justify-start gap-4 ml-24">
                 <Link to="/">
-                    <img src={logo} alt="Logo" />
+                    <img src={logo} alt="Logo" className='logo-name'/>
                 </Link>
                 <Link to="/projects">
                     <p className={navBarItemsClasses}>Projects</p>

@@ -8,6 +8,8 @@ import alg from '../assets/project_algorithms.png';
 import inventory from '../assets/inventory.png';
 import traduzo from '../assets/traduzo.png';
 import spotnews from '../assets/spotnews.png';
+import ghibli from '../assets/ghibli.png';
+
 
 const projectsFEData = [
     {
@@ -42,6 +44,13 @@ const projectsFEData = [
         live: 'https://project-tryunfo-nu.vercel.app/',
         frameworks: ['React', 'Redux', 'JavaScript', 'HTML', 'TailwindCSS']
     },
+    {
+        name: 'Ghibli Animations',
+        description: 'Website that lists the Studio Ghibli animations and their details.',
+        image: ghibli,
+        live: 'https://ghibli-animations-danillo-expeditos-projects.vercel.app/',
+        frameworks: ['React', 'JavaScript', 'HTML']
+    }
 ];
 
 const projectsBEData = [
@@ -85,7 +94,7 @@ const projectsBEData = [
         description: 'A Django API that allows you to create, edit and delete news.',
         image: spotnews,
         code: 'https://github.com/danillo-expedito/project-spotnews',
-        frameworks: ['Python', 'Django', 'Rest Framework', 'Pytest', 'Docker', 'MySQL']
+        frameworks: ['Python', 'Django', 'Rest', 'Pytest', 'Docker', 'MySQL']
     }
 ]
 
