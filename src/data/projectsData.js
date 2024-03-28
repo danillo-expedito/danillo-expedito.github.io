@@ -9,6 +9,7 @@ import inventory from '../assets/inventory.png';
 import traduzo from '../assets/traduzo.png';
 import spotnews from '../assets/spotnews.png';
 import ghibli from '../assets/ghibli.png';
+import trybetunes from '../assets/trybetunes.png';
 
 
 const projectsFEData = [
@@ -50,7 +51,15 @@ const projectsFEData = [
         image: ghibli,
         live: 'https://ghibli-animations-danillo-expeditos-projects.vercel.app/',
         frameworks: ['React', 'JavaScript', 'HTML']
-    }
+    },
+    {
+        name: 'TrybeTunes',
+        description: 'A music streaming website that allows you to search for music and play a preview.',
+        image: trybetunes,
+        code: 'https://github.com/danillo-expedito/trybetunes-vite-ts',
+        live: 'https://trybetunes-vite-ts-zeta.vercel.app/',
+        frameworks: ['Vite', 'TypeScript' ]
+    },
 ];
 
 const projectsBEData = [
